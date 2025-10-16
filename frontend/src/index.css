@@ -1,0 +1,22 @@
+
+/* Minimalistic, rich color palette for global styles */
+body {
+	background: linear-gradient(120deg, #f5f7fa 0%, #e2eafc 100%);
+	color: #232946;
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #3f8efc;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+a:hover {
+	color: #232946;
+}
+
+button {
+	font-family: inherit;
+}

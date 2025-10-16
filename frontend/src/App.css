@@ -1,0 +1,57 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f5f7fa 0%, #e2eafc 100%);
+  color: #232946;
+  line-height: 1.6;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Utility Classes */
+
+.error-message {
+  color: #fff;
+  background: linear-gradient(90deg, #d7263d 0%, #ffb6b9 100%);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(215,38,61,0.08);
+  border: none;
+}
+
+.success-message {
+  color: #fff;
+  background: linear-gradient(90deg, #1fa774 0%, #a8ff78 100%);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(31,167,116,0.08);
+  border: none;
+}
+
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #3f8efc;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
